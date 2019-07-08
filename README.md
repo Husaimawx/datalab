@@ -1,8 +1,13 @@
 # datalab
 
-This repository contains 15 programming puzzles that manipulate bits using the following operators ```!  ̃ & ˆ | + << >>```. They are marked by difficulty and their restrictions alongside three different automatic testing programs to use to verify solutions.
+This repository contains 15 programming puzzles that manipulate bits using the following operators 
+```!  ̃ & ˆ | + << >>```
+
+They are marked by difficulty and their restrictions alongside three different automatic testing programs to use to verify solutions.
+
 In addition, enclosed are my own verified solutions to each problem with explanations.
 
+---
 All code written to solve the problems have the following restrictions
 
 Each "Expr" is an expression using ONLY the following:
@@ -24,7 +29,6 @@ Some of the problems restrict the set of allowed operators even further.
   7. Use any data type other than int.  This implies that you
      cannot use arrays, structs, or unions.
 
- 
 Assume that the computer running the code:
   1. Uses 2s complement, 32-bit representations of integers.
   2. Performs right shifts arithmetically.
@@ -41,7 +45,6 @@ NOTES:
   3. Use the btest test harness to check your functions for correctness.
   4. The maximum number of ops for each function is given in the
      header comment for each function. 
-     
      
 ---
 
