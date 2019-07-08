@@ -7,19 +7,20 @@ They are marked by difficulty and their restrictions alongside three different a
 
 In addition, enclosed are my own verified solutions to each problem with explanations.
 
+![bitwise operators](https://i.imgur.com/syeARXT.png)
 ---
-All code written to solve the problems have the following restrictions
+### All code written to solve the problems have the following restrictions
 
-Each "Expr" is an expression using ONLY the following:
+#### Each "Expr" is an expression using **ONLY** the following:
   1. Integer constants 0 through 255 (0xFF), inclusive. You are
       not allowed to use big constants such as 0xffffffff.
   2. Function arguments and local variables (no global variables).
   3. Unary integer operations ! ~
   4. Binary integer operations & ^ | + << >>
     
-Some of the problems restrict the set of allowed operators even further.
+#### Some of the problems restrict the set of allowed operators even further.
 
-  It is forbidden to:
+#### It is forbidden to:
   1. Use any control constructs such as if, do, while, for, switch, etc.
   2. Define or use any macros.
   3. Define any additional functions in this file.
@@ -29,13 +30,13 @@ Some of the problems restrict the set of allowed operators even further.
   7. Use any data type other than int.  This implies that you
      cannot use arrays, structs, or unions.
 
-Assume that the computer running the code:
+#### Assume that the computer running the code:
   1. Uses 2s complement, 32-bit representations of integers.
   2. Performs right shifts arithmetically.
   3. Has unpredictable behavior when shifting an integer by more
      than the word size.
 
-NOTES:
+#### Notes:
   1. Use the dlc (data lab checker) compiler to 
      check the legality of solutions.
   2. Each function has a maximum number of operators (! ~ & ^ | + << >>)
@@ -48,7 +49,7 @@ NOTES:
      
 ---
 
-Enclosed are also some autograding tools in the handout directory — btest, dlc, and driver.pl — which can help check the correctness of the solutions
+### Enclosed are also some autograding tools in the handout directory — *btest*, *dlc*, and *driver.pl* — which can help check the correctness of the solutions
 • btest: This program checks the functional correctness of the functions in bits.c. To build and use it, type the following two commands:
 ```
 unix> make
