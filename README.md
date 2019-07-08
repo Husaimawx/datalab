@@ -1,6 +1,7 @@
 # datalab
 
 This repository contains 15 programming puzzles that manipulate bits using the following operators 
+
 ```!  ̃ & ˆ | + << >>```
 
 They are marked by difficulty and their restrictions alongside three different automatic testing programs to use to verify solutions.
