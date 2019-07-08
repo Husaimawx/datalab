@@ -8,7 +8,9 @@ They are marked by difficulty and their restrictions alongside three different a
 In addition, enclosed are my own verified solutions to each problem with explanations.
 
 ![bitwise operators](https://i.imgur.com/syeARXT.png)
+
 ---
+
 ### All code written to solve the problems have the following restrictions
 
 #### Each "Expr" is an expression using **ONLY** the following:
@@ -20,6 +22,8 @@ In addition, enclosed are my own verified solutions to each problem with explana
     
 #### Some of the problems restrict the set of allowed operators even further.
 
+---
+
 #### It is forbidden to:
   1. Use any control constructs such as if, do, while, for, switch, etc.
   2. Define or use any macros.
@@ -30,11 +34,15 @@ In addition, enclosed are my own verified solutions to each problem with explana
   7. Use any data type other than int.  This implies that you
      cannot use arrays, structs, or unions.
 
+---
+
 #### Assume that the computer running the code:
   1. Uses 2s complement, 32-bit representations of integers.
   2. Performs right shifts arithmetically.
   3. Has unpredictable behavior when shifting an integer by more
      than the word size.
+
+---
 
 #### Notes:
   1. Use the dlc (data lab checker) compiler to 
@@ -66,6 +74,8 @@ unix> ./btest -f bitAnd -1 7 -2 0xf
 ```
 Check the file README for documentation on running the btest program.
 
+---
+
 • dlc: This is a modified version of an ANSI C compiler from the MIT CILK group that you can use
 to check for compliance with the coding rules for each puzzle. The typical usage is:
 ```
@@ -77,6 +87,8 @@ unix> ./dlc -e bits.c
 ```
 causes dlc to print counts of the number of operators used by each function. Type ./dlc -help
 for a list of command line options.
+
+---
 
 • driver.pl: This is a driver program that uses btest and dlc to compute the correctness and performance points for your solution. It takes no arguments:
 ```
