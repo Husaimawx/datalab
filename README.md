@@ -1,16 +1,18 @@
 # datalab
 
-In this directory are 15 programming puzzles, marked by difficulty and their restrictions alongside their solutions
+This repository contains 15 programming puzzles that manipulate bits using the following operators ```!  ̃ & ˆ | + << >>```. They are marked by difficulty and their restrictions alongside three different automatic testing programs to use to verify solutions.
+In addition, enclosed are my own verified solutions to each problem with explanations.
 
 All code written to solve the problems have the following restrictions
-  Each "Expr" is an expression using ONLY the following:
+
+Each "Expr" is an expression using ONLY the following:
   1. Integer constants 0 through 255 (0xFF), inclusive. You are
       not allowed to use big constants such as 0xffffffff.
   2. Function arguments and local variables (no global variables).
   3. Unary integer operations ! ~
   4. Binary integer operations & ^ | + << >>
     
-  Some of the problems restrict the set of allowed operators even further.
+Some of the problems restrict the set of allowed operators even further.
 
   It is forbidden to:
   1. Use any control constructs such as if, do, while, for, switch, etc.
@@ -23,7 +25,7 @@ All code written to solve the problems have the following restrictions
      cannot use arrays, structs, or unions.
 
  
-  Assume that the computer running the code:
+Assume that the computer running the code:
   1. Uses 2s complement, 32-bit representations of integers.
   2. Performs right shifts arithmetically.
   3. Has unpredictable behavior when shifting an integer by more
@@ -31,7 +33,7 @@ All code written to solve the problems have the following restrictions
 
 NOTES:
   1. Use the dlc (data lab checker) compiler to 
-     check the legality of your solutions.
+     check the legality of solutions.
   2. Each function has a maximum number of operators (! ~ & ^ | + << >>)
      that you are allowed to use for your implementation of the function. 
      The max operator count is checked by dlc. Note that '=' is not 
