@@ -18,8 +18,8 @@ In addition, enclosed are my own verified solutions to each problem with explana
   1. Integer constants 0 through 255 (0xFF), inclusive. You are
       not allowed to use big constants such as 0xffffffff.
   2. Function arguments and local variables (no global variables).
-  3. Unary integer operations ! ~
-  4. Binary integer operations & ^ | + << >>
+  3. Unary integer operations ```! ~```
+  4. Binary integer operations ```& ^ | + << >>```
     
 #### Some of the problems restrict the set of allowed operators even further.
 
@@ -30,7 +30,7 @@ In addition, enclosed are my own verified solutions to each problem with explana
   2. Define or use any macros.
   3. Define any additional functions in this file.
   4. Call any functions.
-  5. Use any other operations, such as &&, ||, -, or ?:
+  5. Use any other operations, such as ```&& || - ?:```
   6. Use any form of casting.
   7. Use any data type other than int.  This implies that you
      cannot use arrays, structs, or unions.
@@ -48,7 +48,7 @@ In addition, enclosed are my own verified solutions to each problem with explana
 #### Notes:
   1. Use the dlc (data lab checker) compiler to 
      check the legality of solutions.
-  2. Each function has a maximum number of operators (! ~ & ^ | + << >>)
+  2. Each function has a maximum number of operators ```! ~ & ^ | + << >>```
      that you are allowed to use for your implementation of the function. 
      The max operator count is checked by dlc. Note that '=' is not 
      counted; you may use as many of these as you want without penalty.
